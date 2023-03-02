@@ -79,6 +79,7 @@ header .info {
 .info h1::first-letter {
 	font-family: 'Lobster', cursive;
 }
+/* todo: change just the ff first letter */
 .info h1 .lastname {
 	font-family: 'Yellowtail', cursive;
 }
@@ -130,4 +131,17 @@ header .info {
 	100% {
 		transform: none;
 	}
+}
+.photo {
+	position: relative;
+}
+.photo img {
+	position: absolute;
+	max-width: 200px;
+	border-radius: 50%;
+	border: 5px solid #000c40bd;
+	box-shadow: -20px -20px 60px #848484, 20px 20px 60px #f0f2f0;
+	left: 50%;
+	top: -50px;
+	transform: translateX(-50%);
 }
