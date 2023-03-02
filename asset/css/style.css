@@ -19,8 +19,6 @@ html {
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../media/bg-header.jpg) center;
 	object-fit: contain;
 	color: #f0f2f0;
-	height: 100vh;
-	width: 100vw;
 }
 .container-accueil {
 	max-width: 1000px;
@@ -96,21 +94,22 @@ header .info {
 	display: inline-block;
 	text-decoration: none;
 	border-radius: 50px;
-	/* border: 1px solid #000c4061; */
-	/* TODO: change color */
-	background: radial-gradient(circle at 50% 50%, #f0f2f0 0%, #6774edf4 30%, #000c40 100%);
-	box-shadow: -20px -20px 60px #000c40, 20px 20px 60px #f0f2f0;
+	border: 0.5px solid #000c40bd;
+	background: radial-gradient(circle farthest-corner at top right, #f0f2f0 20%, #152a8a 50%, #000c40 80%);
+	box-shadow: inset -16px 16px 31px #000c40, inset 16px -16px 31px #f0f2f0;
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
 	margin: 0px 15px;
 	transition: 0.5s ease-in-out;
+	color: #f0f2f0;
 }
 .info .social a:hover {
-	color: #f0f2f0;
-	background-color: #000c40;
+	color: #000c40;
+	background: #f0f2f0;
 	/* animation: socialMove 10s linear infinite; */
 }
+.
 /* TODO: change anim */
 @keyframes socialMove {
 	0% {
@@ -139,9 +138,9 @@ header .info {
 	position: absolute;
 	max-width: 200px;
 	border-radius: 50%;
-	border: 5px solid #000c40bd;
+	border: 5px solid #152a8a;
 	box-shadow: -20px -20px 60px #848484, 20px 20px 60px #f0f2f0;
 	left: 50%;
-	top: -50px;
+	top: -163px;
 	transform: translateX(-50%);
 }
