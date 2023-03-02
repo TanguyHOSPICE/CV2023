@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&family=Yellowtail&family=Lobster&display=swap');
 /* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Yellowtail', cursive; */
+/* font-family: 'Lobster', cursive; */
 
 /* linear-gradient(to right, #000c40, #f0f2f0) */
 /* linear-gradient(to right, #f0f2f0, #000c40) */
@@ -28,7 +30,7 @@ html {
 header {
 	padding: 30px;
 }
-/* Menu */
+/* Menu nav*/
 .nav {
 	position: fixed;
 	margin-left: 60px;
@@ -48,3 +50,4 @@ header {
 	font-weight: bold;
 	text-shadow: -2px 2px 2px rgba(240, 242, 240, 0.6);
 }
+/* logo */
