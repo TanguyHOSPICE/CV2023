@@ -199,3 +199,19 @@ header .info {
 	font-weight: bold;
 }
 /* Section Skills */
+.skills-logos .cont-img {
+	width: 40px;
+	height: 40px;
+	border: 2px solid #000c40;
+	line-height: 40px;
+	border-radius: 50%;
+	display: inline-block;
+}
+.skills-logos img {
+	width: 30px;
+	height: 16px;
+	object-fit: contain;
+}
+/* .skills-logos img[alt='express js logo'] {
+	background-color: #000;
+} */
