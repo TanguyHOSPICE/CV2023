@@ -145,7 +145,7 @@ header .info {
 	transform: translateX(-50%);
 }
 /* Section ABOUT */
-.about {
+#about {
 	background-color: #f0f2f0;
 	padding: 160px 0px 100px;
 }
@@ -199,6 +199,23 @@ header .info {
 	font-weight: bold;
 }
 /* Section Skills */
+#skills {
+	padding: 80px 0px 100px;
+	text-align: center;
+	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/asset/media/bg-skills.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	color: #fff;
+}
+#skills .col {
+	width: 47%;
+}
+.cont-bar {
+	display: flex;
+	align-items: center;
+}
+
 .skills-logos .cont-img {
 	width: 40px;
 	height: 40px;
@@ -215,3 +232,5 @@ header .info {
 /* .skills-logos img[alt='express js logo'] {
 	background-color: #000;
 } */
+
+/* *https://www.youtube.com/watch?v=cg8QbJhp5j4  * */
