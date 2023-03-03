@@ -144,3 +144,57 @@ header .info {
 	top: -163px;
 	transform: translateX(-50%);
 }
+/* Section ABOUT */
+.about {
+	background-color: #f0f2f0;
+	padding: 160px 0px 100px;
+}
+.container-section .title {
+	font-family: 'Yellowtail', cursive;
+	font-size: 1.5rem;
+}
+.container-section h3 {
+	text-transform: uppercase;
+	font-size: 1.875rem;
+}
+.container-section .special {
+	font-weight: bold;
+	margin-top: 15px;
+	color: #152a8a;
+}
+.container-section p {
+	max-width: 700px;
+	color: #848484;
+	margin: auto;
+}
+.container-section .ligne {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+.ligne .col {
+	width: 30%;
+}
+.ligne .col i {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	color: #152a8a;
+	border: 2px solid #000c40;
+	line-height: 40px;
+	border-radius: 50%;
+}
+.ligne span.title-detail {
+	display: block;
+	font-weight: bold;
+	margin: 15px 0;
+}
+.ligne span.italic {
+	font-style: italic;
+	font-size: 0.8rem;
+}
+.ligne span.graduate {
+	font-style: italic;
+	font-size: 1.2rem;
+	font-weight: bold;
+}
