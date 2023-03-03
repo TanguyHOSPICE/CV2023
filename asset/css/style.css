@@ -14,7 +14,7 @@
 html {
 	scroll-behavior: smooth;
 }
-/* Section Accueil */
+/* Section Home  */
 #accueil {
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../media/bg-header.jpg) center;
 	object-fit: contain;
@@ -198,4 +198,4 @@ header .info {
 	font-size: 1.2rem;
 	font-weight: bold;
 }
-/* Section  */
+/* Section Skills */
