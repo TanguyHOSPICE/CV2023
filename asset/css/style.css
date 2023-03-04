@@ -202,11 +202,28 @@ header .info {
 #skills {
 	padding: 80px 0px 100px;
 	text-align: center;
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/asset/media/bg-skills.jpg');
+	background: url('/asset/media/bg-txt.jpg');
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: center center;
 	color: #fff;
+}
+#skills .container-section h3 {
+	background: linear-gradient(rgba(0, 0, 0, 0.191), rgba(0, 0, 0, 0.191)), url(/asset/media/bg-txt.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	font-size: 4rem;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#skills .container-section h3:before {
+	content: attr(data-text);
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0px;
+	text-shadow: -10px 10px 10px #0000003e, -15px 15px 20px #0000003e, -25px 20px 30px #0000003e, -30px 25px 40px #0000003e;
 }
 #skills .col {
 	width: 47%;
@@ -219,7 +236,7 @@ header .info {
 .skills-logos .cont-img {
 	width: 40px;
 	height: 40px;
-	border: 2px solid #000c40;
+	border: 2px solid #f0f2f0;
 	line-height: 40px;
 	border-radius: 50%;
 	display: inline-block;
@@ -233,4 +250,4 @@ header .info {
 	background-color: #000;
 } */
 
-/* *https://www.youtube.com/watch?v=cg8QbJhp5j4  * */
+/* *https://www.youtube.com/watch?v=cg8QbJhp5j4 4m51s * */
