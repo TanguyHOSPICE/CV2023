@@ -216,6 +216,7 @@ header .info {
 	background: linear-gradient(rgba(0, 0, 0, 0.191), rgba(0, 0, 0, 0.191)), url(/asset/media/bg-txt.jpg);
 	background-size: cover;
 	background-attachment: fixed;
+	border: 0.5px solid #f0f2f0;
 	position: relative;
 	font-size: 4rem;
 	-webkit-background-clip: text;
@@ -248,7 +249,6 @@ header .info {
 	display: inline-block;
 }
 #skills .skills-logos i {
-	color: var();
 	border: 2px solid var(--html-logo-color);
 	box-shadow: -10px 9px 10px 0px rgba(255, 255, 255, 0.764) inset, -10px 9px 10px 0px rgba(13, 12, 12, 0.86);
 }

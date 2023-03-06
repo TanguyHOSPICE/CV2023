@@ -1,7 +1,7 @@
 :root {
 	/* BG */
-	--html-bg: linear-gradient(90deg, #e34c26 50%, #f06529 50%);
-	--css-bg: linear-gradient(90deg, ##264de4 50%, #2965f1 50%);
+	--html-bg: #e34c26 /* linear-gradient(90deg, #e34c26 50%, #f06529 50%) */;
+	--css-bg: #264de4 /* linear-gradient(90deg, #264de4 50%, #2965f1 50%) */;
 	--js-bg: #f0db4f;
 	--php-bg: #777bb3;
 	--symfony-bg: #000;
@@ -19,8 +19,6 @@
 	/* border txt */
 	--php-txt-border: #fff;
 	/* txt */
-	--html-txt-color: #000;
-	--css-txt-color: #000;
 	--js-txt-color: #323330;
 	--php-txt-color: #000;
 	--symfony-txt-color: #fff;

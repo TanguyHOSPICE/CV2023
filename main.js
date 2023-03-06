@@ -1,5 +1,4 @@
-import {} from './css/';
-// Icons
+// Icons - i
 const htmlLogo = document.querySelector('.fa-html5');
 const cssLogo = document.querySelector('.fa-css3');
 const jsLogo = document.querySelector('.fa-js');
@@ -21,5 +20,20 @@ const illustratorLogo = document.querySelector('img[alt="illustrator logo"]');
 const microsoftOfficeLogo = document.querySelector('img[alt="microsoft office logo"]');
 const autocadLogo = document.querySelector('img[alt="autocad logo"]');
 const openOfficeLogo = document.querySelector('img[alt="open office logo"]');
+// Spans
+const htmlTxt = document.querySelector('span[data-text="HTML"]');
+const cssTxt = document.querySelector('span[data-text="CSS"]');
+//Global
+let root = document.querySelector(':root');
+let gcs = getComputedStyle(root);
 
-htmlLogo.style.getPropertyValue('--html-txt-color');
+let cssBg = gcs.getPropertyValue('--css-bg');
+let cssTxtBg = gcs.getPropertyValue('--css-bg');
+//HTML
+let htmlBg = gcs.getPropertyValue('--html-bg');
+let htmlTxtBg = gcs.getPropertyValue('--html-bg');
+htmlLogo.style.setProperty('color', htmlBg);
+htmlTxt.style.setProperty('color', htmlBg);
+
+cssLogo.style.setProperty('color', cssBg);
+cssTxt.style.setProperty('color', cssBg);
