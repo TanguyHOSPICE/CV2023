@@ -1,0 +1,38 @@
+:root {
+	/* BG */
+	--html-bg: linear-gradient(90deg, #e34c26 50%, #f06529 50%);
+	--css-bg: linear-gradient(90deg, ##264de4 50%, #2965f1 50%);
+	--js-bg: #f0db4f;
+	--php-bg: #777bb3;
+	--symfony-bg: #000;
+	--bootstrap-bg: #563d7c;
+	--react-bg: #61dbfb;
+	--wordpress-bg: #444140;
+	--nodejs-bg: linear-gradient(23deg, #68a063 50%, #3c873a 50%);
+	--sass-bg: #cc6699;
+	--figma-bg: linear-gradient(90deg, #f24e1e 20%, , #ff7262 20%, , #a259ff 20%, , #1abcfe 20%, #0acf83 20%);
+	/* border */
+	--html-logo-border: linear-gradient(90deg, #e44d26 50%, #f16529 50%);
+	--php-logo-border: radial-gradient(circle farthest-corner at top left, #aeb2d5 50%, #484c89 50%);
+	--wordpress-logo-border: #000;
+	--figma-logo-border: linear-gradient(90deg, #e44d26 50%, #f16529 50%);
+	/* border txt */
+	--php-txt-border: #fff;
+	/* txt */
+	--html-txt-color: #000;
+	--css-txt-color: #000;
+	--js-txt-color: #323330;
+	--php-txt-color: #000;
+	--symfony-txt-color: #fff;
+	--bootstrap-txt-color: #fff;
+	--react-txt-color: #61dbfb;
+	--wordpress-txt-color: linear-gradient(90deg, #00749c 50%, #444140 50%);
+	--nodejs-txt-color: linear-gradient(23deg, #68a063 50%, #3c873a 50%);
+	--sass-txt-color: #cc6699;
+	--figma-txt-color: linear-gradient(90deg, #e44d26 50%, #f16529 50%);
+	--photoshop-txt-color: #2da9ff;
+	--ai-txt-color: #ff9b00;
+	--mo-txt-color: #2da9ff;
+	--autocad-txt-color: #000;
+	--oo-txt-color: #0586ce;
+}

@@ -5,6 +5,9 @@
 
 /* linear-gradient(to right, #000c40, #f0f2f0) */
 /* linear-gradient(to right, #f0f2f0, #000c40) */
+
+@import url(/asset/css/colors.css);
+
 * {
 	margin: 0;
 	padding: 0;
@@ -179,8 +182,9 @@ header .info {
 	display: inline-block;
 	width: 40px;
 	height: 40px;
-	color: #152a8a;
-	border: 2px solid #000c40;
+	color: #000c40;
+	border: 1px solid #000c40c8;
+	box-shadow: -10px 9px 10px 0px #848484 inset, -10px 9px 10px 0px #848484;
 	line-height: 40px;
 	border-radius: 50%;
 }
@@ -216,6 +220,7 @@ header .info {
 	font-size: 4rem;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	margin: 20px auto 0;
 }
 #skills .container-section h3:before {
 	content: attr(data-text);
@@ -229,25 +234,54 @@ header .info {
 	width: 47%;
 }
 .cont-bar {
-	display: flex;
-	align-items: center;
+	text-align: left;
+	border-radius: 10px;
+	border: 1px solid #f0f2f0;
+	margin-right: 10px;
 }
-
-.skills-logos .cont-img {
+.cont-bar .skills-logos .cont-img {
 	width: 40px;
 	height: 40px;
 	border: 2px solid #f0f2f0;
 	line-height: 40px;
-	border-radius: 50%;
+	/* border-radius: 50%; */
 	display: inline-block;
 }
+#skills .skills-logos i {
+	color: var();
+	border: 2px solid var(--html-logo-color);
+	box-shadow: -10px 9px 10px 0px rgba(255, 255, 255, 0.764) inset, -10px 9px 10px 0px rgba(13, 12, 12, 0.86);
+}
 .skills-logos img {
-	width: 30px;
-	height: 16px;
+	width: 40px;
+	height: 40px;
 	object-fit: contain;
+	border: 2px solid var(#f0f2f0);
+	border-radius: 50%;
+	box-shadow: -10px 9px 10px 0px rgba(255, 255, 255, 0.764) inset, -10px 9px 10px 0px rgba(13, 12, 12, 0.86);
+	padding: 2px;
+}
+#skills .col > span {
+	color: var(#f0f2f0);
+	/* TODO: text shadow or not */
+	/* text-shadow: -10px 9px 10px 0px rgba(250, 247, 247, 0.86); */
+}
+.bar {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	box-shadow: -10px 9px 10px 0px rgba(13, 12, 12, 0.86);
+}
+.e {
+	background-color: var(#f0f2f0);
+	width: 20px;
+	height: 20px;
+	margin-right: 2px;
+	padding-left: 5px;
+	border-radius: 10px;
 }
 /* .skills-logos img[alt='express js logo'] {
 	background-color: #000;
 } */
 
-/* *https://www.youtube.com/watch?v=cg8QbJhp5j4 4m51s * */
+/* *https://www.youtube.com/watch?v=cg8QbJhp5j4 40m10s * */
