@@ -31,9 +31,10 @@ let gcs = getComputedStyle(root);
 let htmlBg = gcs.getPropertyValue('--html-bg');
 let htmlTxtBg = gcs.getPropertyValue('--html-bg');
 let bar = document.getElementsByClassName('e');
-htmlLogo.style.setProperty('color', htmlBg);
+/* htmlLogo.style.setProperty('color', '#e34c26');
 htmlTxt.style.setProperty('color', htmlBg);
-bar.style.setProperty('background-color', htmlBg);
+bar.style.setProperty('background', 'htmlBg'); */
+document.documentElement.style.setProperty('--html-bg', '#e34c26');
 
 //CSS
 let cssBg = gcs.getPropertyValue('--css-bg');

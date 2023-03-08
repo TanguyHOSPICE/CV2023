@@ -222,14 +222,6 @@ header .info {
 	-webkit-text-fill-color: transparent;
 	margin: 20px auto 0;
 }
-#skills .container-section h3:before {
-	content: attr(data-text);
-	position: absolute;
-	width: 100%;
-	top: 0;
-	left: 0px;
-	text-shadow: -10px 10px 10px #0000003e, -15px 15px 20px #0000003e, -25px 20px 30px #0000003e, -30px 25px 40px #0000003e;
-}
 #skills .col {
 	width: 47%;
 }
@@ -239,6 +231,24 @@ header .info {
 	border: 1px solid #f0f2f0;
 	margin-right: 10px;
 }
+#skills .skills-logos {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#skills .skills-logos i {
+	font-size: 2rem;
+	border: 2px solid rgba(255, 255, 255, 0.764);
+	box-shadow: -10px 9px 10px 0px rgba(255, 255, 255, 0.764) inset, -10px 9px 10px 0px rgba(13, 12, 12, 0.86);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 60px;
+	height: 60px;
+	color: var(--html-bg);
+	line-height: 40px;
+	border-radius: 50%;
+}
 .cont-bar .skills-logos .cont-img {
 	width: 60px;
 	height: 60px;
@@ -246,11 +256,6 @@ header .info {
 	line-height: 40px;
 	/* border-radius: 50%; */
 	display: inline-block;
-}
-#skills .skills-logos i {
-	font-size: 1.8rem;
-	border: 2px solid var(--html-logo-color);
-	box-shadow: -10px 9px 10px 0px rgba(255, 255, 255, 0.764) inset, -10px 9px 10px 0px rgba(13, 12, 12, 0.86);
 }
 .skills-logos img {
 	width: 60px;
