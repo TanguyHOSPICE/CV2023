@@ -27,13 +27,16 @@ const cssTxt = document.querySelector('span[data-text="CSS"]');
 let root = document.querySelector(':root');
 let gcs = getComputedStyle(root);
 
-let cssBg = gcs.getPropertyValue('--css-bg');
-let cssTxtBg = gcs.getPropertyValue('--css-bg');
 //HTML
 let htmlBg = gcs.getPropertyValue('--html-bg');
 let htmlTxtBg = gcs.getPropertyValue('--html-bg');
+let bar = document.getElementsByClassName('e');
 htmlLogo.style.setProperty('color', htmlBg);
 htmlTxt.style.setProperty('color', htmlBg);
+bar.style.setProperty('background-color', htmlBg);
 
+//CSS
+let cssBg = gcs.getPropertyValue('--css-bg');
+let cssTxtBg = gcs.getPropertyValue('--css-bg');
 cssLogo.style.setProperty('color', cssBg);
 cssTxt.style.setProperty('color', cssBg);

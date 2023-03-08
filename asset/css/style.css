@@ -216,7 +216,6 @@ header .info {
 	background: linear-gradient(rgba(0, 0, 0, 0.191), rgba(0, 0, 0, 0.191)), url(/asset/media/bg-txt.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-	border: 0.5px solid #f0f2f0;
 	position: relative;
 	font-size: 4rem;
 	-webkit-background-clip: text;
@@ -241,20 +240,21 @@ header .info {
 	margin-right: 10px;
 }
 .cont-bar .skills-logos .cont-img {
-	width: 40px;
-	height: 40px;
+	width: 60px;
+	height: 60px;
 	border: 2px solid #f0f2f0;
 	line-height: 40px;
 	/* border-radius: 50%; */
 	display: inline-block;
 }
 #skills .skills-logos i {
+	font-size: 1.8rem;
 	border: 2px solid var(--html-logo-color);
 	box-shadow: -10px 9px 10px 0px rgba(255, 255, 255, 0.764) inset, -10px 9px 10px 0px rgba(13, 12, 12, 0.86);
 }
 .skills-logos img {
-	width: 40px;
-	height: 40px;
+	width: 60px;
+	height: 60px;
 	object-fit: contain;
 	border: 2px solid var(#f0f2f0);
 	border-radius: 50%;
@@ -263,8 +263,10 @@ header .info {
 }
 #skills .col > span {
 	color: var(#f0f2f0);
+	font-size: 1.8rem;
+	font-weight: bold;
 	/* TODO: text shadow or not */
-	/* text-shadow: -10px 9px 10px 0px rgba(250, 247, 247, 0.86); */
+	text-shadow: -10px 9px 10px 0px rgba(250, 247, 247, 0.86);
 }
 .bar {
 	display: flex;
@@ -273,9 +275,9 @@ header .info {
 	box-shadow: -10px 9px 10px 0px rgba(13, 12, 12, 0.86);
 }
 .e {
-	background-color: var(#f0f2f0);
+	background-color: red; /*PROVISOIRE*/
 	width: 20px;
-	height: 20px;
+	height: 25px;
 	margin-right: 2px;
 	padding-left: 5px;
 	border-radius: 10px;
