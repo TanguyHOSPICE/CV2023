@@ -13,6 +13,7 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
 }
 html {
 	scroll-behavior: smooth;
@@ -347,4 +348,27 @@ td p {
 	font-weight: bold;
 	font-size: 4rem;
 }
-/* *https://www.youtube.com/watch?v=cg8QbJhp5j4 40m10s * */
+/* Section Contact */
+#contact {
+	background: linear-gradient(to right, #f0f2f0, #000c40);
+	color: #000c40;
+	padding: 140px 0px 100px 0;
+}
+#contact .ligne {
+	display: flex;
+	justify-content: space-around;
+}
+#contact .col {
+	margin-top: 50px;
+}
+#contact .col i {
+	color: #000c40;
+	border: 1px solid #f0f2f0;
+	box-shadow: -10px 9px 10px 0px #f0f2f0 inset, -4px 3px 10px 0px #000c40;
+}
+#contact .info-contact a {
+	padding: 20px;
+	color: #152a8a;
+	cursor: pointer;
+}
+/* *https://www.youtube.com/watch?v=cg8QbJhp5j4  * */
